@@ -23,11 +23,26 @@ a {
   font-family: "Great Vibes", cursive;
 }
 
+nav {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 4px;
+  z-index: 1;
+}
+nav * {
+  transition: all 0.2s ease-in-out;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+}
+.navbar a:hover {
+  transform: translateY(-2px);
 }
 .navbar .main-nav {
   display: flex;
@@ -37,9 +52,6 @@ a {
 }
 .navbar .main-nav i {
   font-size: 1.5rem;
-}
-.navbar .main-nav * {
-  transition: all 0.2s ease-in-out;
 }
 .navbar .main-nav *:hover {
   transform: translateY(-2px);
@@ -59,8 +71,34 @@ a {
   padding: 1rem;
   flex-grow: 1;
   margin: 1px;
-  transition: all 0.2s ease-in-out;
 }
 .menu-nav li:hover {
   background-color: #f4f4f4;
+}
+
+.container {
+  margin: 180px 140px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.container .card {
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+  aspect-ratio: 1;
+}
+.container .card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .card p {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 20px 0;
 }/*# sourceMappingURL=style.css.map */
