@@ -1,3 +1,42 @@
+/* Tablets */
+@media screen and (max-width: 768px) {
+  body .navbar h1 {
+    font-size: 2.5rem;
+  }
+  body .menu-nav {
+    margin: 0 0.5rem;
+  }
+  body .menu-nav li {
+    padding: 0.5rem;
+  }
+  body .container {
+    margin: 180px 40px 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  body footer .second-nav a {
+    padding: 0 1rem;
+  }
+}
+/* Smartphones */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.7rem;
+  }
+  body .navbar h1 {
+    font-size: 2rem;
+  }
+  body .navbar .main-nav {
+    gap: 0.8rem;
+  }
+  body .menu-nav li {
+    padding: 0.5rem;
+  }
+  body .container {
+    margin: 180px 20px 100px;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -133,7 +172,7 @@ footer ul li i {
   font-size: 1.1rem;
 }
 footer .second-nav a {
-  padding: 0 4rem;
+  padding: 0 3rem;
 }
 footer .wall::after {
   content: "|";

@@ -1,4 +1,4 @@
-// @use 'media' as *;
+@use 'media' as *;
 
 // ////// //
 // Reset  //
@@ -194,12 +194,9 @@ footer {
   }
 
   .second-nav {
-    //   ul {
-    //     @extend .opacity-on-hover;
-    //   }
 
     a {
-      padding: 0 4rem;
+      padding: 0 3rem;
     }
   }
 
