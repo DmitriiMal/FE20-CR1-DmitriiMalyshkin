@@ -1,5 +1,8 @@
 /* Tablets */
 @media screen and (max-width: 768px) {
+  body {
+    background-color: #fceded;
+  }
   body .navbar h1 {
     font-size: 2.5rem;
   }
@@ -9,12 +12,20 @@
   body .menu-nav li {
     padding: 0.5rem;
   }
+  body .showcase .translate--x, body .hero .recipe-showcase .translate--x, .hero body .recipe-showcase .translate--x, body .hero .about-showcase .translate--x, .hero body .about-showcase .translate--x {
+    font-size: 4rem;
+    transform: translateY(-1500px);
+  }
+  body .showcase .translate-x, body .hero .recipe-showcase .translate-x, .hero body .recipe-showcase .translate-x, body .hero .about-showcase .translate-x, .hero body .about-showcase .translate-x {
+    font-size: 1rem;
+    transform: translateY(3000px);
+  }
   body .main-container, body .content-container {
-    margin: 180px 40px 50px;
+    margin: 10px 40px 50px;
     grid-template-columns: repeat(2, 1fr);
   }
   body .content-container {
-    margin: 180px 40px 50px;
+    grid-template-columns: 1fr;
   }
   body footer .second-nav a {
     padding: 0 1rem;
@@ -23,6 +34,7 @@
 /* Smartphones */
 @media (max-width: 480px) {
   body {
+    background-color: #edf6fc;
     font-size: 0.7rem;
   }
   body .navbar h1 {
@@ -35,9 +47,13 @@
     padding: 0.5rem;
   }
   body .main-container, body .content-container {
-    margin: 180px 20px 100px;
+    margin: 10px 10px 90px;
     grid-template-columns: 1fr;
+    padding: 15px;
     gap: 0.5rem;
+  }
+  body .content-container {
+    margin: 10px;
   }
 }
 * {

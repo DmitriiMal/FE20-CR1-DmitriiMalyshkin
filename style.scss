@@ -216,8 +216,6 @@ nav {
 }
 
 .content-container {
-  // rewritten !
-  // margin: 10px 140px 50px;
   @extend .main-container;
   grid-template-columns: 1fr;
   padding: 2rem;
@@ -286,18 +284,9 @@ footer {
     }
   }
 
-  // .wall {
-  //   position: relative;
-  // }
-
   .wall::after {
     content: "|";
     margin-left: 10px;
     position: absolute;
   }
-
-  // li:hover .wall:after {
-  //   transform: none;
-  // }
-
 }
