@@ -159,7 +159,7 @@ nav {
 .hero {
   margin: 160px 0 40px;
 
-  div {
+  .recipe-showcase {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +174,7 @@ nav {
     position: relative;
   }
 
-  div::before {
+  .recipe-showcase::before {
     content: '';
     background: rgba(0, 0, 0, 0.3);
     width: 100%;
