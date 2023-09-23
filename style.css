@@ -1,8 +1,5 @@
 /* Tablets */
 @media screen and (max-width: 768px) {
-  body {
-    background-color: #fceded;
-  }
   body .navbar h1 {
     font-size: 2.5rem;
   }
@@ -34,7 +31,6 @@
 /* Smartphones */
 @media (max-width: 480px) {
   body {
-    background-color: #edf6fc;
     font-size: 0.7rem;
   }
   body .navbar h1 {
@@ -197,7 +193,7 @@ nav {
 }
 .hero .translate--x {
   font-size: 8rem;
-  transform: translateX(-1500px);
+  transform: translateX(-2000px);
   animation: come-back 0.2s ease-in-out forwards 1s;
 }
 .hero .translate-x {
